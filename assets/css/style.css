@@ -931,3 +931,68 @@ textarea::-ms-input-placeholder
     color: #fff;
     transform:scale(1.1);
 }	
+
+/* Responsive styling */
+@media (max-width: 991px) {
+
+    .features h3{
+        font-size: 35px;
+    }
+    .features h5{
+        font-size: 25px;
+    }
+    .heading-content h3{
+        font-size: 35px;
+    }
+    .heading-content h5{
+        font-size: 18px;
+    }
+    .video h1{
+        font-size: 35px;
+    }
+    .ebooks h1{
+        font-size: 35px;
+    }
+    .testimonial h3{
+        font-size: 35px;
+    }
+    .download h1{
+        font-size: 35px;
+    }
+    .contact h1{
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .features h3{
+        font-size: 25px;
+    }
+    .features h5{
+        font-size: 20px;
+    }
+
+    }
+    .heading-content h5{
+        font-size: 18px;
+    }
+    .video h1{
+        font-size: 25px;
+    }
+    .ebooks h1{
+        font-size: 25px;
+    }
+    .testimonial h3{
+        font-size: 25px;
+    }
+    .download h1{
+        font-size: 25px;
+    }
+    .contact h1{
+        font-size: 25px;
+    }
+  
+}
+
