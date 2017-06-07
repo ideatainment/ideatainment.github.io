@@ -516,7 +516,7 @@ textarea::-ms-input-placeholder
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  min-height:600px;
+  min-height:500px;
   width: 100%;
   
 }
@@ -640,7 +640,7 @@ textarea::-ms-input-placeholder
 }
 
 .gallery-icon a{
-	font-size:15px;
+	font-size:21px;
 	color:#fff;
 	text-transform:uppercase;
 	transition:.3s;
@@ -937,6 +937,10 @@ textarea::-ms-input-placeholder
     transform:scale(1.1);
 }	
 
+    .modal-content h2{
+        margin: 40px;
+    }
+
 /* Responsive styling */
 @media (max-width: 991px) {
 
@@ -1005,6 +1009,11 @@ textarea::-ms-input-placeholder
     .contact h1{
         font-size: 25px;
         }
+
+     .modal-content h2{
+        margin: 20px;
+        font-size: 20px;
+    }
   
 }
 
