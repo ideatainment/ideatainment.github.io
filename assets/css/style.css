@@ -494,7 +494,7 @@ textarea::-ms-input-placeholder
     text-transform:uppercase;
     color:#fff;
 	line-height: 55px;
-    margin-left: 25px;
+    
 }
 
 .navbar-default .navbar-nav>li>a:hover {
