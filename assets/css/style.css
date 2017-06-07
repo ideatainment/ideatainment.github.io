@@ -465,7 +465,7 @@ textarea::-ms-input-placeholder
 	color:#414042;
 }
 .heading-content h3{
-    padding-top: 25px;
+    padding-top: 35px;
 	font-weight: 700;
 	font-size:45px;
 }
@@ -494,7 +494,7 @@ textarea::-ms-input-placeholder
     text-transform:uppercase;
     color:#fff;
 	line-height: 55px;
-    
+
 }
 
 .navbar-default .navbar-nav>li>a:hover {
