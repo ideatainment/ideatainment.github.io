@@ -77,7 +77,9 @@ PRE LOADER
 }
 .btn:focus,
 .btn:active {
+    border-color: #4cae4c;
     outline: inherit;
+    background-color: #4cae4c;
 }
 *,
 *:before,
@@ -120,6 +122,9 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
     outline: none;
+    margin-left: 0%;
+    margin-top: 2.5%;
+    border-color: #4cae4c;
 }
 .form-control {
     border: 1px solid rgba(0, 0, 0, 0.08);
@@ -128,6 +133,10 @@ input[type="color"],
 }
 .form-control:focus {
     border-color: #449d44;
+}
+
+.btn-danger{
+    border-color: #4cae4c;
 }
 
 h1,
@@ -893,7 +902,7 @@ textarea::-ms-input-placeholder
 	margin-bottom:20px;
 }
 .form-control {
-    height: 35px;
+    height: 45px;
 }
 .contact-form-area form .contact-btn{
 	background: #414042;
