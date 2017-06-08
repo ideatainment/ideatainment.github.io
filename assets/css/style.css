@@ -92,6 +92,8 @@ p {
 }
 .clear {
     clear: both;
+    margin-bottom: 20px;
+    width: 120%;
 }
 ol,
 ul {
@@ -125,7 +127,7 @@ input[type="color"],
     height: 45px;
 }
 .form-control:focus {
-    border-color: #f56363;
+    border-color: #449d44;
 }
 
 h1,
@@ -665,14 +667,7 @@ textarea::-ms-input-placeholder
 
 /* For Video Section */
 
-.video{
-  background: url(../images/video.jpg) no-repeat center center;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  width: 100%;
-}
+
 .video-content{
 	color:#fff;
 	margin-top: 60px;
@@ -747,6 +742,10 @@ textarea::-ms-input-placeholder
 	color:#fff;
 }
 
+
+.mc_embed_signup {
+    width: 75%;
+}
 
 .price-category.basic{
 	margin-left:50px;
